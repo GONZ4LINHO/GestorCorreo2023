@@ -1,0 +1,30 @@
+CONTACTO
+creamos una clase llamada contacto, donde definimos las variables nombre, apellido y mail, de tipo String. Tambien realizamos los getters para poder asignasrlos mas adelante
+
+CORREO
+en esta clase definimos las caracteristicas de correo, es decir, que posea, asunto:String , contenido:String, remitente:Contacto y para:List<String>, tambien hacemos el constructor que llevara
+los datos del correo
+
+GESTORCORREO
+es quien se encarga de crear el correo y guardarlo en el buzon 
+
+BUZON
+en buzon podemos guardar los correos recibidos y los correos enviados 
+
+VALIDACION
+es quien se encarga de poder realizar una validacion del mail de una persona
+
+FILTRAR BUSQUEDA
+se encarga de hacer un filtro, que busca los correos en base a su criterio
+
+FILTRAR CORREOS UCP
+hace un filtro donde filtra los contactos que posean un mail @ucp.edu.ar
+
+FILTRAR BUZON 
+filtra los correos enviados/recibidos
+
+FILTRO MENSAJE ASUNTO
+se encarga de hacer un filtro que filtra un correo en base a su asunto y contenido
+
+FILTRO REMITENTE ASUNTO
+se encarga de hacer un filtro que filtra un correo en base a su asunto y remitente
